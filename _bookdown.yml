@@ -3,7 +3,7 @@ delete_merged_file: yes
 language:
   ui:
     chapter_name: 'Chapter '
-output_dir: docs/wip
+output_dir: "."
 before_chapter_script: golembuild.R
 after_chapter_script: golemdestroy.R
 rmd_files:
@@ -27,3 +27,4 @@ rmd_files:
 - common-app-caveats.Rmd
 - optimizing-shiny-code.Rmd
 - javascript.Rmd
+- biblio.Rmd
